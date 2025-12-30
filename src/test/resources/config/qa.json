@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "timeouts": { "connect": 7000, "read": 20000 },
+  "logging": { "prettyRequest": true, "prettyResponse": true }
+}
