@@ -1,0 +1,33 @@
+{
+  "correlationId": "#(correlationId)",
+  "customer": {
+    "idType": "DNI",
+    "idNumber": "#(randomId)",
+    "fullName": "Luis Bravo",
+    "contacts": [
+      { "type": "email", "value": "luis@example.com" },
+      { "type": "phone", "value": "+51-999-888-777" }
+    ]
+  },
+  "policy": {
+    "product": "AUTO",
+    "startDate": "#(startDate)",
+    "endDate": "#(endDate)",
+    "insuredItems": [
+      {
+        "type": "vehicle",
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "attributes": {
+          "color": "white",
+          "plate": "ABC-123"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "source": "karate-training",
+    "tags": ["big-body", "echo", "api"]
+  }
+}
